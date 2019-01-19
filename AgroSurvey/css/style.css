@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300);
+body {
+  background: rgba(0, 69, 245, 0.88);
+  min-height: 100vh;
+  width: auto;
+}
+
+.title h1 {
+  font-size: 3.5em;
+  color: #fff;
+}
+
+.bar {
+  height: .25em;
+  width: 100%;
+  background: #fff;
+  margin: 1.5em auto 0;
+}
+
+.main_login {
+    
+  min-height: 50vh;
+  position: relative;
+  top: 20vh;
+}
+
+.main_register {
+    
+  min-height: 50vh;
+  position: relative;
+  top: 5vh;
+}
+
+input[type=text], input[type=password] {
+  font-size: 1.75em;
+  padding: .55em;
+  width: 100%;
+  margin-bottom: 1em;
+  border: none;
+}
+input[type=text]::-webkit-input-placeholder, input[type=password]::-webkit-input-placeholder {
+  color: #aaaaaa;
+  position: relative;
+  padding: 0;
+  transition: all 0.5s ease;
+}
+input[type=text]:-ms-input-placeholder, input[type=password]:-ms-input-placeholder {
+  color: #aaaaaa;
+  position: relative;
+  padding: 0;
+  transition: all 0.5s ease;
+}
+input[type=text]::-ms-input-placeholder, input[type=password]::-ms-input-placeholder {
+  color: #aaaaaa;
+  position: relative;
+  padding: 0;
+  transition: all 0.5s ease;
+}
+input[type=text]::placeholder, input[type=password]::placeholder {
+  color: #aaaaaa;
+  position: relative;
+  padding: 0;
+  transition: all 0.5s ease;
+}
+input[type=text]:hover::-webkit-input-placeholder, input[type=text]:focus::-webkit-input-placeholder, input[type=password]:hover::-webkit-input-placeholder, input[type=password]:focus::-webkit-input-placeholder {
+  padding-top: 3em;
+}
+input[type=text]:hover:-ms-input-placeholder, input[type=text]:focus:-ms-input-placeholder, input[type=password]:hover:-ms-input-placeholder, input[type=password]:focus:-ms-input-placeholder {
+  padding-top: 3em;
+}
+input[type=text]:hover::-ms-input-placeholder, input[type=text]:focus::-ms-input-placeholder, input[type=password]:hover::-ms-input-placeholder, input[type=password]:focus::-ms-input-placeholder {
+  padding-top: 3em;
+}
+input[type=text]:hover::placeholder, input[type=text]:focus::placeholder, input[type=password]:hover::placeholder, input[type=password]:focus::placeholder {
+  padding-top: 3em;
+}
+
+.form h2 {
+  text-align: left;
+  font-weight: 100;
+  color: #fff;
+  margin-bottom: .5em;
+}
+.form h4 {
+  font-weight: 100;
+  color: #fff;
+  margin-top: 2em;
+}
+
+#login, #signup {
+  color: white;
+  width: 6em;
+  font-family: Lato;
+  font-weight: 100;
+  font-size: 1.75em;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  background: transparent;
+  transition: all 200ms ease-in;
+  border-radius: .65em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+#login:hover, #signup:hover, #login:focus, #signup:focus {
+  background: #fff;
+  color: #f58421;
+  border: none;
+}
+
+#signup, #login {
+  font-size: 1em;
+  position: relative;
+  left: 1.5em;
+}
+
+h1, h2 h3, h4, h5, h6, input {
+  font: Lato;
+  font-weight: 100;
+}
